@@ -24,7 +24,7 @@ jobs:
           registry: europe-north1-docker.pkg.dev
           project_id: polynomial-new
   deploy-testnet:
-    name: Deploy new version on Testnet
+    name: Deploy new version
     needs: [push]
     runs-on: ubuntu-latest
     steps:
