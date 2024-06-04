@@ -32,6 +32,5 @@ jobs:
         with:
           services: |
             vendor-stackup-paymaster/shared
-          required_pr_label: auto-deploy
           version: ${{ needs.push.outputs.version }}
           gh_token: ${{ secrets.GH_PAT }}
