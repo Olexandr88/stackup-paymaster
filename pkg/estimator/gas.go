@@ -116,7 +116,6 @@ func (g *GasEstimator) OverrideOpGasLimitsForPND(
 		Ov:          g.ov,
 		ChainID:     g.chainID,
 		MaxGasLimit: maxGasLimit,
-		Tracer:      "bundlerExecutorTracer",
 	})
 	if err != nil {
 		return nil, err
